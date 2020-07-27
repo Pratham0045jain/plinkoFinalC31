@@ -15,7 +15,7 @@ class Particle {
 
     display(){
 
-        if(this.body.position.y > 720){
+        if(this.body.position.y > 750){
             this.body.position.y = 0;
             Matter.Body.setVelocity(this.body,{x:0 , y:10});
           }
